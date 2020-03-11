@@ -10,6 +10,9 @@
   "dependencies": {
     "next": "9.3.0",
     "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "react-dom": "16.13.0",
+    "sass": "^1.26.2",
+    "typeface-dm-sans": "^1.1.3",
+    "typeface-jetbrains-mono": "^1.0.3"
   }
 }

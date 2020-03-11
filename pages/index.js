@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from "next/head";
+import fetch from "node-fetch";
 
 const Home = () => (
   <div className="container">
@@ -134,6 +135,7 @@ const Home = () => (
         font-size: 1.1rem;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        font-family: JetBrains Mono;
       }
 
       .grid {
@@ -191,6 +193,16 @@ const Home = () => (
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        font-family: DM Sans;
+        letter-spacing: -0.02em;
+      }
+
+      h1, h2 {
+        letter-spacing: -0.06em;
+      }
+
+      h3, h4 {
+        letter-spacing: -0.04em;
       }
 
       * {
@@ -198,6 +210,6 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;
