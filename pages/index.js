@@ -1,5 +1,4 @@
 import Head from "next/head";
-import fetch from "node-fetch";
 
 const Home = () => (
   <div className="container">
@@ -193,16 +192,18 @@ const Home = () => (
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-        font-family: DM Sans;
+        font-family: Rubik;
         letter-spacing: -0.02em;
       }
 
       h1, h2 {
         letter-spacing: -0.06em;
+        font-weight: 500;
       }
 
       h3, h4 {
         letter-spacing: -0.04em;
+        font-weight: 500;
       }
 
       * {

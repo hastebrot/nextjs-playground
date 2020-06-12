@@ -1,6 +1,6 @@
 import App from "next/app";
-import "typeface-dm-sans";
 import "typeface-jetbrains-mono";
+import "typeface-rubik";
 
 function CustomApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
