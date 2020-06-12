@@ -1,21 +1,17 @@
-# dependencies
+# package manager.
 /node_modules
-
-# next.js
-/.next/
-/out/
-
-# editor
-.vscode/
-
-# production
-/build
-
-# system
-.DS_Store
-.env*
-
-# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# web framework.
+/.next/
+/build
+/out/
+
+# code editor.
+.vscode/
+
+# system.
+.DS_Store
+.env*
