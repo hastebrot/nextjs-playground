@@ -10,7 +10,7 @@
   "dependencies": {
     "@mdx-js/loader": "^1.6.14",
     "@next/mdx": "^9.5.0",
-    "next": "^9.5.0",
+    "next": "^9.5.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-is": "^16.13.1",
