@@ -14,7 +14,7 @@ class CustomDocument extends Document {
   }
 }
 
-CustomDocument.getInitialProps = async context => {
+CustomDocument.getInitialProps = async (context) => {
   const initialProps = await Document.getInitialProps(context);
   return { ...initialProps };
 };
