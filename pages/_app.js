@@ -1,5 +1,5 @@
-import App from "next/app";
-import "tailwindcss/tailwind.css";
+import App from 'next/app';
+import 'tailwindcss/tailwind.css';
 
 function CustomApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
